@@ -20,6 +20,10 @@ public final class Constants {
     public static class Autonomous {
         
     }
+    public static class Elevator {
+        public final static int ELEVATOR_PRIMARY_ID = 0;
+        public final static int ELEVATOR_FOLLOWER_ID = 1;
+    }
 
     public static double PI = 3.14159265;
     public static double UPDATE_PERIOD = 0.010; // seconds
